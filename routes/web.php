@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    throw new Exception('I broke everything');
+//    throw new Exception('I broke everything');
     return view('welcome');
 });
